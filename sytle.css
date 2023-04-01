@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');/* background image */
+    font-size: 120%;
+  }
+  
+  .card {  /* to create a styled container element that is used to display content */
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 420px;
+    margin: 2em;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center; /* Used to aligning item to the center */
+    justify-content: center;
+  }
+  
+  button { /* In this part desiging the search button*/
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  /**/
+  input.search-bar { /* In this part Designing the Search bar */
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px; /* to define rounded corners for the  border*/
+    background: #7c7c7c2b;  /*Background color for the search bar */
+    color: white; /* Color for the text that are written on the search bar  */
+    font-family: inherit; /* Defining the font style on the search bar */
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+   
+  button:hover {     /* Set the background color for the search bar */
+    background: #7c7c7c6b;
+  }
+  
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  /* .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  } */
